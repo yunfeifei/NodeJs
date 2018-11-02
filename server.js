@@ -5,7 +5,7 @@ var server = http.createServer(function(req, res) {
   res.writeHead(200, {
     'Content-Type': 'text/plain'
   })
-  res.end('Hello，You are welcome!')
+  res.end('Hello, you are welcome!')
 })
 
 server.listen(8080, function( ) {
